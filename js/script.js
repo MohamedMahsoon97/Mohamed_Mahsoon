@@ -39,8 +39,7 @@ const tabContents = document.querySelectorAll('[data-content]');
 
 tabs.forEach( tab => {
     tab.addEventListener('click' , () => {
-        const target = document.querySelector(tab.dataset.target)
-        console.log(target);
+        const target = document.querySelector(tab.dataset.target);
         tabContents.forEach(tabContent => {
             tabContent.classList.remove('qualification__active')
         })
