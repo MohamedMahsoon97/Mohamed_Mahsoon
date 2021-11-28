@@ -483,8 +483,10 @@ img
 .skills__html{width: 90%;}
 .skills__css{width: 80%;}
 .skills__js{width: 60%;}
+.skills__jq{width: 70%;}
 .skills__bootstrap{width: 80%;}
 .skills__sass{width: 60%;}
+.skills__git{width: 60%;}
 .skills__react{width: 50%;}
 
 .skills__open
@@ -732,8 +734,17 @@ img
     margin-top: 1.5rem;
 }
 /*==================== TESTIMONIAL ====================*/
+.testimonial__container {
+    border-radius: 20px;
+}
 .testimonial__data,
 .testimonial__header{display: flex;}
+.testimonial__content{
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 25%);
+    padding: 15px 30px;
+}
 .testimonial__data
 {
     justify-content: space-between;
@@ -1088,7 +1099,7 @@ img
     .home__scroll-name{width: 130px;}
     .about__container{column-gap: 3rem;}
     .about__img{width: 350px;}
-    .about__description{text-align: initial;}
+    .about__description{text-align: justify;}
     .about__info{justify-content: space-between;}
     .about__buttons{justify-content: initial;}
 

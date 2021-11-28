@@ -79,12 +79,12 @@ var swiperPortfolio = new Swiper(".portfolio__container", {
     cssMode: true,
     loop : true ,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
     pagination: {
-      el: ".swiper-pagination",
-      clickable : true ,
+        el: ".swiper-pagination",
+        clickable : true ,
     },
 });
 
@@ -94,13 +94,13 @@ var swiperTestimonial = new Swiper(".testimonial__container", {
     grabCursor : true,
     spaceBetween : 48,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
     pagination: {
-      el: ".swiper-pagination",
-      clickable : true ,
-      DynamicBullets : true,
+        el: ".swiper-pagination",
+        clickable : true ,
+        DynamicBullets : true,
     },
     breakpoints : {
         596 : {
